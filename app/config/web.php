@@ -6,6 +6,7 @@ $basePath =  dirname(__DIR__);
 $webroot = dirname($basePath);
 
 $config = [
+
     'id' => 'app',
     'basePath' => $basePath,
     'bootstrap' => ['log'],
